@@ -1,0 +1,432 @@
+{
+  "retrieved_at": "2026-09-01T12:00:00Z",
+  "commits": [
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-01T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-02T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-03T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-04T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-05T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-06T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-07T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-01T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-02T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-03T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-04T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-05T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-06T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-07T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-01T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-02T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-03T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-04T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-05T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-06T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-07T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-01T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-02T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-03T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-04T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-05T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-06T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-07T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-01T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-02T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-03T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-04T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-05T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-ada"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-06T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-lin"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-07T12:00:00Z"
+        }
+      }
+    },
+    {
+      "author": {
+        "login": "sample-sam"
+      },
+      "commit": {
+        "author": {
+          "date": "2026-09-01T12:00:00Z"
+        }
+      }
+    }
+  ],
+  "issues": [
+    {
+      "state": "closed",
+      "pull_request": {}
+    },
+    {
+      "state": "open"
+    },
+    {
+      "state": "open"
+    },
+    {
+      "state": "closed"
+    },
+    {
+      "state": "open",
+      "pull_request": {}
+    },
+    {
+      "state": "open"
+    },
+    {
+      "state": "closed"
+    },
+    {
+      "state": "open"
+    },
+    {
+      "state": "open",
+      "pull_request": {}
+    },
+    {
+      "state": "closed"
+    },
+    {
+      "state": "open"
+    },
+    {
+      "state": "open"
+    },
+    {
+      "state": "closed",
+      "pull_request": {}
+    },
+    {
+      "state": "open"
+    },
+    {
+      "state": "open"
+    },
+    {
+      "state": "closed"
+    },
+    {
+      "state": "open",
+      "pull_request": {}
+    },
+    {
+      "state": "open"
+    },
+    {
+      "state": "closed"
+    },
+    {
+      "state": "open"
+    }
+  ]
+}

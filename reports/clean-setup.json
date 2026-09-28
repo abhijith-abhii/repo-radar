@@ -1,0 +1,9 @@
+{
+  "slug": "repo-radar",
+  "fresh_venv": "work/clean-envs/repo-radar",
+  "fresh_checkout": "work/clean/repo-radar",
+  "passed": true,
+  "failure": null,
+  "runtime": "Python 3.12.14",
+  "model_training": null
+}

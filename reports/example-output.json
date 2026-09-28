@@ -1,0 +1,59 @@
+{
+  "bars": [
+    {
+      "label": "2026-09-01",
+      "value": 6
+    },
+    {
+      "label": "2026-09-02",
+      "value": 5
+    },
+    {
+      "label": "2026-09-03",
+      "value": 5
+    },
+    {
+      "label": "2026-09-04",
+      "value": 5
+    },
+    {
+      "label": "2026-09-05",
+      "value": 5
+    },
+    {
+      "label": "2026-09-06",
+      "value": 5
+    },
+    {
+      "label": "2026-09-07",
+      "value": 5
+    }
+  ],
+  "chart_title": "Commits by author timestamp (UTC)",
+  "details": {
+    "limits": "First 3 pages per endpoint; not complete historical coverage",
+    "repository": "pallets/flask",
+    "retrieved_at": "2026-09-01T12:00:00Z"
+  },
+  "metrics": {
+    "Commits sampled": 36,
+    "Issues sampled": 15,
+    "Linked/unlinked identities": 3,
+    "Open in sample": 10
+  },
+  "notice": "Synthetic sample: counts demonstrate the analysis and are not claims about pallets/flask",
+  "rows": [
+    {
+      "commits": 12,
+      "contributor": "sample-ada"
+    },
+    {
+      "commits": 12,
+      "contributor": "sample-lin"
+    },
+    {
+      "commits": 12,
+      "contributor": "sample-sam"
+    }
+  ]
+}
