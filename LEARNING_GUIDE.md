@@ -23,11 +23,15 @@ Follow the README installation block, then: Run sample mode and reconcile 36 com
 
 ## Five interview questions
 
-1. **What problem does this project solve, and what is its unit of work?** Explain understand public repository activity, identify job seekers and maintainers as the audience, and trace one concrete example through the files above. Use the demonstration output rather than hypothetical impact.
-2. **Why did you choose the first design decision?** Cap API pagination at three pages to bound response time and unauthenticated rate use. Show the corresponding implementation and a test that would fail if that property were removed.
-3. **How do you protect correctness when inputs or execution change?** Cache public snapshots for five minutes, clearly separating sample and live modes. Explain the relevant invalid-input or edge-case test and distinguish a checked property from an untested assumption.
-4. **How do you make results inspectable and reproducible?** Exclude pull-request records from issue totals and avoid treating commit counts as productivity. Point to actual outputs and recorded commands. Explain why a successful example is weaker evidence than a tested boundary or independently reconciled total.
-5. **What would you improve before real deployment or real-data use?** At most 300 commits and 300 default issue-endpoint records. GitHub's issues endpoint defaults to open issues, so live issue counts describe the returned open sample. Commit timestamps are author times. No private repository tokens are used. Choose one limitation, describe the missing evidence, and propose a measurable acceptance check rather than promising production readiness.
+1. **What does the live dashboard measure?** It samples up to three pages of commits and issue/PR records from the public GitHub API. PR records are removed from issue counts; the result is a bounded snapshot, not full repository history.
+
+2. **Why cache results?** A five-minute disk cache reduces repeated requests and rate-limit pressure. The recorded retrieval timestamp tells a reader how fresh a result is.
+
+3. **Does commit count measure developer performance?** No. Squashes, bots, pair work and different contribution types distort commit counts. The dashboard describes activity and never ranks people by productivity.
+
+4. **How are sample and live data distinguished?** Sample mode explicitly labels its synthetic records. Live mode records the actual repository and retrieval time. A real Flask API snapshot is saved in reports/live-api.json.
+
+5. **How does the app handle API failure?** It uses request timeouts and distinct messages for missing repositories, rate limits and other failures. Sample mode is an explicit fallback, never silently substituted as a live result.
 
 ## Independent exercise
 
@@ -41,6 +45,6 @@ The implementation was developed with substantial AI assistance under Abhijith V
 
 Suggested factual bullet after personally validating the demo:
 
-- Implemented and validated understand public repository activity using Python · Flask, with github pagination and documented correctness checks and limitations.
+- Built a cached GitHub activity explorer with bounded pagination and explicit sample/live modes; validated a real public API snapshot of 300 commits.
 
 Use [VERIFICATION.md](VERIFICATION.md) to add only measured numbers. Do not claim production traffic, users, savings, upstream acceptance or cloud deployment without corresponding evidence.
